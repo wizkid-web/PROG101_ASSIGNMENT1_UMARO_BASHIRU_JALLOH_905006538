@@ -1,0 +1,33 @@
+# Testing: Quality Education Support System
+
+## Purpose
+
+Testing checks whether the program produces the expected results for valid and invalid inputs.
+
+## Test Cases
+
+| Test | Attendance | Score | Expected Result |
+|---|---:|---:|---|
+| 1 | 90 | 80 | Both satisfactory |
+| 2 | 60 | 70 | Low attendance and extra support |
+| 3 | 85 | 40 | Needs improvement and extra support |
+| 4 | 60 | 30 | Extra support recommended |
+| 5 | 75 | 50 | Both satisfactory |
+| 6 | -5 | 60 | Reject attendance and request again |
+| 7 | 80 | 110 | Reject score and request again |
+| 8 | 80 | Text | Reject non-numeric score and request again |
+
+## Testing Procedure
+
+1. Start the Python program.
+2. Enter the values for each test case.
+3. Observe the displayed output.
+4. Compare the actual output with the expected result.
+5. Record whether each test passes or fails.
+6. Correct any errors and repeat the test.
+
+## Conclusion
+
+Testing helps confirm that the program checks attendance, evaluates test scores, validates inputs, and recommends learning support according to the specified rules.
+
+The results should be recorded after the tests have actually been performed.
