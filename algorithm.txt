@@ -1,0 +1,21 @@
+## Steps
+
+1. Start the program.
+2. Display the system title.
+3. Request the student's name.
+4. Request the attendance percentage.
+5. Request the test score.
+6. Check whether attendance is between 0 and 100.
+7. If attendance is invalid, display an error and request the value again.
+8. Check whether the test score is between 0 and 100.
+9. If the score is invalid, display an error and request the value again.
+10. If attendance is below 75, classify attendance as low.
+11. Otherwise, classify attendance as satisfactory.
+12. If the test score is below 50, classify performance as needing improvement.
+13. Otherwise, classify performance as satisfactory.
+14. If attendance is below 75 or the score is below 50, recommend additional learning support.
+15. Otherwise, recommend continuing current learning activities.
+16. Display the student's name, attendance status, performance status, and recommendation.
+17. End the program.
+
+## End
