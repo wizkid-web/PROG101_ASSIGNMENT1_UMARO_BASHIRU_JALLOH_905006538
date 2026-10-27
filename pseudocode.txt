@@ -1,0 +1,53 @@
+BEGIN
+
+    DISPLAY "QUALITY EDUCATION SUPPORT SYSTEM"
+
+    INPUT student_name
+
+    WHILE student_name is empty
+        DISPLAY "Name cannot be empty"
+        INPUT student_name
+    ENDWHILE
+
+    INPUT attendance
+
+    WHILE attendance is not numeric OR
+          attendance < 0 OR attendance > 100
+        DISPLAY "Enter attendance between 0 and 100"
+        INPUT attendance
+    ENDWHILE
+
+    INPUT test_score
+
+    WHILE test_score is not numeric OR
+          test_score < 0 OR test_score > 100
+        DISPLAY "Enter a score between 0 and 100"
+        INPUT test_score
+    ENDWHILE
+
+    IF attendance < 75 THEN
+        attendance_status = "Low attendance"
+    ELSE
+        attendance_status = "Satisfactory attendance"
+    ENDIF
+
+    IF test_score < 50 THEN
+        performance_status = "Needs improvement"
+    ELSE
+        performance_status = "Satisfactory performance"
+    ENDIF
+
+    IF attendance < 75 OR test_score < 50 THEN
+        recommendation =
+            "Additional learning support recommended"
+    ELSE
+        recommendation =
+            "Continue current learning activities"
+    ENDIF
+
+    DISPLAY student_name
+    DISPLAY attendance_status
+    DISPLAY performance_status
+    DISPLAY recommendation
+
+END
