@@ -4,8 +4,8 @@
 **Course:** PROG101 Principles of Programming Logic and Design
 **Assignment:** Designing Logical Solutions for Sierra Leone Community Challenges
 **Topic chosen:** Quality Education
-**Student:** Student Name (Student ID)
-**Repository name:** `PROG101_Assignment1_StudentName_StudentID`
+**Student:** UMARO BASHIRU JALLOH 905006538
+**Repository name:** `PROG101_ASSIGNMENT1_UMARO_BASHIRU_JALLOH_905006538
 
 > This repository contains a **logical design only** (algorithm, pseudocode, flowcharts and modules). No source code is required for this assignment.
 
